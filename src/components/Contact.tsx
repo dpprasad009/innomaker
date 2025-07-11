@@ -174,7 +174,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/60 focus:border-blue-400"
-                  placeholder="your.email@example.com"
+                  placeholder="Enter your Email id"
                   required
                 />
               </motion.div>
